@@ -1,2 +1,4 @@
-# Discord-webhook.bot
- Pretend to be a discord bot!
+# Pretendabot
+Pretend to be a discord bot!
+
+---
