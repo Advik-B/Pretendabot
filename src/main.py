@@ -59,8 +59,7 @@ def send_message():
             message.delete(1.0, END)
         except MissingSchema:
             messagebox.showerror('Error', 'Invalid WebHook URL')
-    
-    
+    clr = None   
     
 
 title_label = ttk.Label(root, text=title.split('|')[0], font=('Arial', 30))
