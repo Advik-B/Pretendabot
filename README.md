@@ -20,10 +20,12 @@ Use this app to trick your friends into thinking they are talking to you!
 ## Install
 
 ### Download and install
+
 1. Download the latest version [here](https://github.com/Advik-B/Pretendabot/releases)
 2. Run the installer
 
 ### How to use
+
 3. Open Discord
 4. Make shure you have the `manage channels` permission
 5. Click on the cog icon/`edit channel` on your favorate channel it should look like this
@@ -36,8 +38,6 @@ Use this app to trick your friends into thinking they are talking to you!
 8. Click on `Copy WebHook url`
 9. Open the app
 10. Paste the webhook url in `WebHook Urls seprated by commas:`
-
-
 
 ## Contacts
 
