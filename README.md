@@ -39,6 +39,9 @@ Use this app to trick your friends into thinking they are talking to you!
 9. Open the app
 10. Paste the webhook url in `WebHook Urls seprated by commas:`
 
+## Attribution
+The app icon/logo is by [@hlooola](https://www.cleanpng.com/users/@hlooola.html)
+
 ## Contacts
 
 [![img](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/newworkspace-v9m9347/shared_invite/zt-yh9sx01i-Te53Gy6nmYDuyBkp4Icu3Q)
