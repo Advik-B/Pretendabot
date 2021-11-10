@@ -15,7 +15,7 @@ Pretendabot© is an app that lets you become a discord bot!.
 
 It uses discord intrigrations(webhooks) and lets you impersonate a bot/webhook.
 
-Use this app to trick your friends into thinking they are talking to you!
+Use this app to trick your friends into thinking they are talking to a bot!
 
 ## Install
 
