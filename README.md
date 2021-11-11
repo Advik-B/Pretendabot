@@ -39,7 +39,8 @@ Use this app to trick your friends into thinking they are talking to a bot!
 9. Open the app
 10. Paste the webhook url in `WebHook Urls seprated by commas:`
 
-## Attribution
+## Legal
+### Attribution
 The app icon/logo is by [@hlooola](https://www.cleanpng.com/users/@hlooola.html)
 
 ## Contacts
