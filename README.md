@@ -34,10 +34,14 @@ Use this app to trick your friends into thinking they are talking to a bot!
 6. Click on `Integrations` tab: (it should look like this)
 ![img](image/README/1636566691454.png)
 7. On the webhooks tab click on `Create Webhook`
-6. Name you bot
-8. Click on `Copy WebHook url`
-9. Open the app
-10. Paste the webhook url in `WebHook Urls seprated by commas:`
+![image](https://user-images.githubusercontent.com/86160411/141409245-d7e53314-bef9-4fd8-8c65-2bc2dee97956.png)
+8. Name you bot
+9. Click on `Copy WebHook url`
+![image](https://user-images.githubusercontent.com/86160411/141409451-0d4422b3-1f7c-46e5-a5ea-eff7bedc4923.png)
+
+10. Open the app
+11. Paste the webhook url in `WebHook Urls seprated by commas:`
+![image](https://user-images.githubusercontent.com/86160411/141409517-e5e539ef-3731-4398-9fb5-f496190ec335.png)
 
 ## Legal
 ### Attribution
