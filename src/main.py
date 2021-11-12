@@ -6,7 +6,6 @@ from discord_webhook import DiscordEmbed
 from requests.exceptions import MissingSchema
 
 title = 'Pretenda-bot © | Discord'
-default_name = 'Pretenda-bot'
 
 BG = '#36393f'
 root = Tk()
@@ -34,32 +33,26 @@ def clear_color():
 def send_message():
     link = web_hook_urls.get()
     if ',' in link:
-            link = link.split(',').replace('\n', '').replace(' ', '')
+            link = link.replace('\n', '').replace(' ', '').split(',')
     hook = Hook(link)
     global clr
     name_ = author.get()
-    if name_.replace(' ', '').replace('\n', '') == '':
-        name_ = default_name
+    
     if clr is not None:
-        message.config(bg='white')
         msg = message.get(1.0, END)
         embed = DiscordEmbed(description=msg, color=clr.replace('#', ''))
         try:
             hook.send_embed(embed=embed, username=name_)
             messagebox.showinfo('Sucess', 'Message sent!')
-            message.delete(1.0, END)
         except MissingSchema:
             messagebox.showerror('Error', 'Invalid WebHook URL')
     else:
-        message.config(bg='white')
         msg = message.get(1.0, END)
         try:
             hook.send_msg(msg, username=name_)
             messagebox.showinfo('Sucess', 'Message sent!')
-            message.delete(1.0, END)
         except MissingSchema:
             messagebox.showerror('Error', 'Invalid WebHook URL')
-    clr = None   
     
 
 title_label = ttk.Label(root, text=title.split('|')[0], font=('Arial', 30))
