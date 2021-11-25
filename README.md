@@ -17,6 +17,8 @@ It uses discord intrigrations(webhooks) and lets you impersonate a bot/webhook.
 
 Use this app to trick your friends into thinking they are talking to a bot!
 
+Use the web version [here](https://pretendabot.anvil.app/)
+
 ## Install
 
 ### Download and install
