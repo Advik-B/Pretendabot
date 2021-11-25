@@ -5,7 +5,7 @@ import anvil.server, os
 
 load_dotenv()
 
-anvil.server.connect(os.getcwd('ID'))
+anvil.server.connect(os.getenv('ID'))
 
 @anvil.server.callable
 def send(link, msg:str, author:str=None, avatar:str=None):
